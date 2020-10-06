@@ -30,19 +30,7 @@ void Book::book2()
 	price = 3800;
 	stock = 11;
 }
-void Book::book3()
-{
-title = "Object Orientedc Programming";
-author = "E. Balaguruswamy";
-publisher = "Tata McGraw-Hill";
-price = 3950;
-stock = 8;
-}
-void Book::display(Book b)
-{
-cout<<"Title: "<<b.title<<"\nAuthor: "<<b.author<<"\nPublisher: "<<b.publisher<<endl;
-cout<<"Price: "<<b.price<<"\nStock: "<<b.stock<<endl;
-}
+
 void Book::search()
 {
 	Book b1, b2, b3;
